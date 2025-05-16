@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS lv_db;
+USE lv_db;
+CREATE TABLE IF NOT EXISTS anmeldungen (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    vorname VARCHAR(255),
+    nachname VARCHAR(255)
+);
