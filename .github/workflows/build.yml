@@ -21,5 +21,6 @@ jobs:
 
     - name: Build and push Web image
       run: |
-        docker build -t ghcr.io/${{ github.repository_owner }}/assignment03-web:latest ./web
-        docker push ghcr.io/${{ github.repository_owner }}/assignment03-web:latest
+        docker build -t ghcr.io/kjeel/assignment03-web:latest ./web
+        docker push ghcr.io/kjeel/assignment03-web:latest
+
